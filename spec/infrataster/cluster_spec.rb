@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'cluster_spec_helper'
 
 describe server('server1') do
   describe http('http://192.168.20.10/') do
